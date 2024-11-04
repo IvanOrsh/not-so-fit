@@ -5,8 +5,8 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {},
 	},
 
-	plugins: [containerQueries]
+	plugins: [containerQueries],
 } satisfies Config;
