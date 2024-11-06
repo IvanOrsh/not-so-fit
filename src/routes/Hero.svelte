@@ -1,21 +1,8 @@
-<div class="stack">
-	<div class="background"></div>
-	<h1>Not So Fit</h1>
+<div class="stack | h-[50svh] bg-gradient-to-br from-orange-500 via-orange-700 to-teal-500">
+	<div class="m-4 rounded-xl bg-gradient-to-br from-gray-800 to-gray-900 lg:m-8"></div>
+	<h1
+		class="place-self-center bg-gradient-to-br from-orange-500 via-orange-700 to-teal-500 bg-clip-text text-7xl text-transparent lg:text-8xl"
+	>
+		Not So Fit
+	</h1>
 </div>
-
-<style lang="postcss">
-	.stack {
-		background: linear-gradient(90deg in oklab, orange, teal);
-		height: 50svh;
-	}
-	.background {
-		margin: 1rem;
-		border-radius: 1rem;
-		background: linear-gradient(90deg in oklab, #1c1917, #292524);
-	}
-	h1 {
-		color: papayawhip;
-		font-size: 3rem;
-		place-self: center;
-	}
-</style>

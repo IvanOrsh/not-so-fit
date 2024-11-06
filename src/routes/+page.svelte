@@ -8,4 +8,11 @@
 <a href="/personal">Generate a programme</a>
 <a href="/discord">Join the community</a>
 
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<style lang="postcss">
+	a {
+		display: block;
+		background-color: black;
+		color: papayawhip;
+		padding: 0.5rem 1rem;
+	}
+</style>
