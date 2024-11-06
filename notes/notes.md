@@ -5,3 +5,5 @@
 - #TODO: do more research about adapters (`svelte.config.js`)
 - #TODO: edit `README.md`
 - #TODO: edit playwright config
+- vite inspector?
+- https://smolcss.dev/#smol-stack-layout, what is "stack layout"?? #TODO: figure out

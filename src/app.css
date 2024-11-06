@@ -1,3 +1,19 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/*
+  Smolcss by Stephanie:
+  from https://smolcss.dev/#smol-stack-layout
+ */
+.stack {
+	display: grid;
+
+	/* we want to apply 1 x 1 area, the name ("stack) doesn't matter */
+	grid-template-areas: 'stack';
+}
+
+/* every direct tile of the stack class */
+.stack > * {
+	grid-area: stack;
+}
