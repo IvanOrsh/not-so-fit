@@ -5,6 +5,6 @@
 
 <Hero />
 
-<Anchor href="/programme">This week&apos;s programme</Anchor>
+<Anchor href="/contact">Contact</Anchor>
 <Anchor href="/personal">Generate a programme</Anchor>
 <Anchor href="/discord">Join the community</Anchor>
