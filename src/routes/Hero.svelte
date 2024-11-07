@@ -1,8 +1,15 @@
-<div class="stack | h-[50svh] bg-gradient-to-br from-orange-500 via-orange-700 to-teal-500">
+<script lang="ts">
+	import Anchor from '$lib/components/Anchor.svelte';
+</script>
+
+<div class="stack | h-[50svh] bg-gradient-to-br from-orange-500 via-orange-300 to-teal-500">
 	<div class="m-4 rounded-xl bg-gradient-to-br from-gray-800 to-gray-900 lg:m-8"></div>
-	<h1
-		class="place-self-center bg-gradient-to-br from-orange-500 via-orange-700 to-teal-500 bg-clip-text text-7xl text-transparent lg:text-8xl"
-	>
-		Not So Fit
-	</h1>
+	<div class="flex flex-col items-center gap-4 place-self-center">
+		<h1
+			class="bg-gradient-to-br from-orange-500 via-orange-300 to-teal-500 bg-clip-text text-7xl text-transparent lg:text-8xl"
+		>
+			Not So Fit
+		</h1>
+		<Anchor href="/programme">See this week&apos;s programme</Anchor>
+	</div>
 </div>
