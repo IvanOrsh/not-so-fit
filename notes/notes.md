@@ -15,6 +15,8 @@ pnpm dlx sv add tailwindcss
 
 ## svelte's component
 
+1. intro level:
+
 ```svelte
 <script lang="ts">
 	import type { Snippet } from 'svelte';
@@ -30,4 +32,26 @@ pnpm dlx sv add tailwindcss
 <a class="rounded-xl bg-orange-800 px-4 py-2 text-orange-100" {href}>
 	{@render children()}
 </a>
+```
+
+2. what is the problem here?
+
+```svelte
+<script lang="ts">
+	import type { Snippet } from 'svelte';
+
+  // NOTICE HTMLAnchorAttributes
+	import type { HTMLAnchorAttributes } from 'svelte/elements';
+
+	type Props = {
+		children: Snippet;
+	} & HTMLAnchorAttributes;
+
+	let { children, ...restProps }: Props = $props();
+</script>
+
+<a class="rounded-xl bg-orange-700 px-4 py-2 text-orange-100" {...restProps}>
+	{@render children()}
+</a>
+
 ```

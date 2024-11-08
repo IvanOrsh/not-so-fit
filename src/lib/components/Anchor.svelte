@@ -1,14 +1,14 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import type { HTMLAnchorAttributes } from 'svelte/elements';
 
 	type Props = {
-		href: string;
 		children: Snippet;
-	};
+	} & HTMLAnchorAttributes;
 
-	let { href, children }: Props = $props();
+	let { children, ...restProps }: Props = $props();
 </script>
 
-<a class="rounded-xl bg-orange-800 px-4 py-2 text-orange-100" {href}>
+<a class="rounded-xl bg-orange-700 px-4 py-2 text-orange-100" {...restProps}>
 	{@render children()}
 </a>

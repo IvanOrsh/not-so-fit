@@ -5,6 +5,11 @@
 
 <Hero />
 
-<Anchor href="/contact">Contact</Anchor>
+<Anchor
+	onclick={() => {
+		console.log('track that the user clicked this');
+	}}
+	href="/contact">Contact</Anchor
+>
 <Anchor href="/personal">Generate a programme</Anchor>
 <Anchor href="/discord">Join the community</Anchor>
