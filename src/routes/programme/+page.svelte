@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Anchor from '$lib/components/Anchor.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <h1 class="text-6xl">Programme</h1>
@@ -29,4 +29,4 @@
 	</li>
 </ul>
 
-<button>Download</button>
+<Button>Download</Button>
