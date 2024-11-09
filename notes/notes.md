@@ -55,3 +55,5 @@ pnpm dlx sv add tailwindcss
 </a>
 
 ```
+
+## theme, mutation observer
