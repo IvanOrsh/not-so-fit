@@ -36,7 +36,7 @@ themeObserver.observe(document.documentElement, {
 
 const toggleTheme = () => {
 	const currentTheme = getTheme();
-	const nextTheme = currentTheme === 'dark' ? 'light' : 'light';
+	const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
 	setTheme(nextTheme);
 };
 
